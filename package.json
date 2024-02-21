@@ -9,8 +9,22 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@smui/button": "^7.0.0-beta.16",
+    "@smui/data-table": "^7.0.0-beta.16",
+    "@smui/textfield": "^7.0.0-beta.16",
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "smui-theme": "^7.0.0-beta.16",
     "svelte": "^4.2.10",
     "vite": "^5.1.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/material": "^5.15.10",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.16",
+    "styled-components": "^6.1.8",
+    "svelte-material-ui": "^7.0.0-beta.16"
   }
 }

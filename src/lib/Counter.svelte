@@ -1,10 +1,14 @@
 <script>
+
+import Button, { Label } from '@smui/button';
+
   let count = 0
   const increment = () => {
     count += 1
   }
 </script>
 
-<button on:click={increment}>
-  count is {count}
-</button>
+<Button color="secondary" on:click={increment} variant="raised">
+  <Label>count is {count}</Label>
+</Button>
+
